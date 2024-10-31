@@ -1,0 +1,53 @@
+body {
+    min-width: 0;
+    height: auto;
+}
+
+span.type {
+    display: inline-block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+span.url {
+    color: #999999;
+    margin-left: -1px;
+}
+
+label small {
+    color: #999999;
+    font-style: italic;
+}
+
+#dimensions, #chosen-dimensions, #years {
+    margin-bottom: 4px;
+}
+
+a.possible-year {
+    text-decoration: none;
+    padding: 2px;
+    margin: 2px;
+}
+
+span.dimension-label, a.possible-year.chosen {
+    background: #828282;
+    color: #fefefe;
+    padding: 2px;
+    margin: 2px;
+}
+
+a.delete {
+    color: #999999;
+    text-decoration: none;
+    font-size: 102%;
+    font-weight: bold;
+}
+
+span.chosen-dimension:after {
+ content: " → ";
+}
+span.chosen-dimension:last-child:after {
+ content: ""; 
+}
